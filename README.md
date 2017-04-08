@@ -11,7 +11,7 @@ Below steps need to follow while integrating this component into your applicatio
 
 4.	To add the following xml snippet into your xml file.
 
-```
+```xml
 <com.avinash.autoresizetextviewlibrary.AutofitTextView
             android:id="@+id/output_autofit"
             android:layout_width="fill_parent"
@@ -26,7 +26,7 @@ Below steps need to follow while integrating this component into your applicatio
 
 5.	To Initialize and set text to ResizeTextview in your Activity / Fragment .
 
-```
+```java
 private  AutofitTextView mAutofitOutput;
 
 @Override
