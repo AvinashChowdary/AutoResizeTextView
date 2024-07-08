@@ -31,10 +31,10 @@ private  AutofitTextView mAutofitOutput;
 
 @Override
 protected void onCreate(Bundle savedInstanceState) {
-super.onCreate(savedInstanceState);
-setContentView(R.layout.activity_main);
-mAutofitOutput = (AutofitTextView) findViewById(R.id.output_autofit);
-mAutofitOutput.setText("This is AutoResizeTextview sample");
+	super.onCreate(savedInstanceState);
+	setContentView(R.layout.activity_main);
+	mAutofitOutput = (AutofitTextView) findViewById(R.id.output_autofit);
+	mAutofitOutput.setText("This is AutoResizeTextview sample");
 }
 ```
 
